@@ -19,6 +19,9 @@ To use `FlexiBottomNavigation` in your Flutter project, follow these steps:
 
    Add `flexi_bottom_nav` to your `pubspec.yaml` file:
    ```yaml
+     flexi_bottom_nav:0.0.1
+   ```
+   ```yaml
    dependencies:
      flutter:
        sdk: flutter
