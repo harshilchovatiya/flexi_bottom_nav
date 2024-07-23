@@ -41,7 +41,7 @@ Here’s a simple example of how to use `FlexiBottomNavigation` in your Flutter 
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flexi_bottom_nav/flexi_bottom_nav.dart'; // Adjust if necessary
+import 'package:flexi_bottom_nav/flexi_bottom_nav.dart'; 
 
 void main() {
   runApp(MaterialApp(
