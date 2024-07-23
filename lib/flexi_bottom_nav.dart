@@ -1,5 +1,4 @@
 library flexi_bottom_nav;
-// lib/bottom_navigation.dart
 import 'package:flutter/material.dart';
 
 class FlexiBottomNavigation extends StatefulWidget {
