@@ -1,5 +1,5 @@
 name: flexi_bottom_nav
-description: "FlexiBottomNavigation is a customizable bottom navigation widget for Flutter. It allows you to easily create a bottom navigation bar with configurable icons, labels, and colors, giving you the flexibility to tailor the navigation experience to your app's needs."
+description: "A flexible Flutter bottom navigation widget with customizable icons, labels, and colors to tailor the navigation bar to your app's needs."
 version: 0.0.2
 homepage: https://github.com/harshilchovatiya/flexi_bottom_nav
 
