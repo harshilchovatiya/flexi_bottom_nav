@@ -1,4 +1,5 @@
 library flexi_bottom_nav;
+
 import 'package:flutter/material.dart';
 
 class FlexiBottomNavigation extends StatefulWidget {
@@ -46,8 +47,10 @@ class _FlexiBottomNavigationState extends State<FlexiBottomNavigation> {
 
   @override
   Widget build(BuildContext context) {
-    if (widget.screens.length != widget.labels.length || widget.screens.length != widget.icons.length) {
-      throw ArgumentError('The length of screens, labels, and icons must be the same.');
+    if (widget.screens.length != widget.labels.length ||
+        widget.screens.length != widget.icons.length) {
+      throw ArgumentError(
+          'The length of screens, labels, and icons must be the same.');
     }
 
     return Scaffold(
@@ -59,9 +62,10 @@ class _FlexiBottomNavigationState extends State<FlexiBottomNavigation> {
             icon: Icon(
               widget.icons[index],
               size: widget.iconSize ?? 24.0, // Default size
-              color: widget.iconColors != null && widget.iconColors!.length > index
-                  ? widget.iconColors![index]
-                  : Colors.grey, // Default color if not specified
+              color:
+                  widget.iconColors != null && widget.iconColors!.length > index
+                      ? widget.iconColors![index]
+                      : Colors.grey, // Default color if not specified
             ),
             label: widget.labels[index],
             tooltip: widget.labels[index],
