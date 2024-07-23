@@ -1,7 +1,7 @@
 name: flexi_bottom_nav
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/harshilchovatiya/flexi_bottom_nav
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
